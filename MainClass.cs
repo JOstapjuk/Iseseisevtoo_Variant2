@@ -23,10 +23,10 @@ namespace Iseseisevtoo
             //Ülesanne 2
             //Задан одномерный массив целых чисел, заполненый случайным образом. Образуйте из него два отсортированных по возрастанию массива, содержащих четные и нечетные числа. Подсказка: четное число делится на 2 без остатка.
 
-            int size = 20; 
-            int[] masiiv = new int[size];
+            int suurus = 20; 
+            int[] masiiv = new int[suurus];
 
-            for (int i = 0; i < size; i++)
+            for (int i = 0; i < suurus; i++)
             {
                 masiiv[i] = random.Next(1, 101); 
             }
